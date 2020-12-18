@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  color: #40514E
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  padding: 0;
+}
+
+h1{
+  font-size: 5.635rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+  font-weight: normal;
+  padding: 10px;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.middle-container {
+  margin: 100px 0;
+}
+
+
+.bottom-container {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+
+p{
+line-height: 2;
+}
+
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #EAF6F6;
+}
+
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+.footer-link{
+  color: #11999E;
+}
+
+
+.heartbeat-img{
+width: 20%;
+float: right;
+margin-right: 40px;
+}
+
+.wireless-img{
+width: 20%;
+float: left;
+margin-right: 30px;
+}
+
+
+.hotel-img{
+width: 20%;
+float: right;
+margin-right: 55px;
+}
+
+.cancun-img{
+width: 20%;
+float: left;
+margin-right: 55px;
+}
+
+.cruise-img{
+width: 25%;
+float: left;
+margin-right: 50px;
+}
+
+
+.camera-img{
+width: 20%;
+float: right;
+margin-right: 30px;
+}
+
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:10px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
